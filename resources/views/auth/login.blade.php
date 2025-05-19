@@ -1,12 +1,10 @@
 @extends('auth.layout')
 @section('conten')
-    <!-- loader Start -->
     <div id="loading">
         <div id="loading-center">
         </div>
     </div>
-    <!-- loader END -->
-    <!-- Sign in Start -->
+
     <section class="sign-in-page">
         <div class="container p-0">
             <div class="row no-gutters height-self-center">
@@ -42,6 +40,4 @@
             </div>
         </div>
     </section>
-    <!-- Sign in END -->
-    <!-- color-customizer -->
 @endsection
